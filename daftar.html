@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Bookstore</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .book {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    display: flex;
+  }
+  .book img {
+    max-width: 100px;
+    margin-right: 1rem;
+  }
+  .book-details {
+    flex: 1;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Bookstore</h1>
+    <div class="books">
+        <a href="index.html">Beranda</a>
+        <a href="#">Disarankan</a>
+        <a href="daftar.html">Daftar Buku</a>
+        <a href="signin.html">Sign in</a>
+        <a href="#">Sign up</a>
+  </header>
+  <div class="container">
+    <div class="book">
+      <img src="book1.jpg" alt="Book 1">
+      <div class="book-details">
+        <h2>Book Title 1</h2>
+        <p>Author: Usman Fahim</p>
+        <p>Price: $19.99</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="book">
+      <img src="book2.jpg" alt="Book 2">
+      <div class="book-details">
+        <h2>Book Title 2</h2>
+        <p>Author: Abdul Sisha</p>
+        <p>Price: $24.99</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <!-- More books can be added here -->
+  </div>
+  <script>
+    // JavaScript functionality can be added here
+  </script>
+</body>
+</html>
